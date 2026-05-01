@@ -60,9 +60,18 @@ export default function App() {
           <p className="hero-sub">
             Transformamos tecnologia em ativo estratégico para empresas que querem crescer com controle, clareza e previsibilidade.
           </p>
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Fale conosco
-          </a>
+          <div className="cta-inline">
+            <p className="cta-inline-title">Pronto para transformar tecnologia em resultado?</p>
+            <p className="cta-inline-sub">Sem enrolação, sem promessas vazias. Só resultado real.</p>
+            <div className="cta-buttons">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary btn-large">
+                Falar pelo WhatsApp
+              </a>
+              <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-large">
+                Acessar LinkedIn
+              </a>
+            </div>
+          </div>
         </section>
 
         <section className="section" id="problema">
